@@ -1,0 +1,19 @@
+//FICHIER DE CONFIGURATION POUR LES VARIABLES DE COULEUR
+
+// Couleur de base 
+$white: #fff;
+$black: #191919;
+
+//Couleur projet spécifique
+$color-background-primary: $black;
+
+$color-scale-1: rgba(229, 229, 229, 1);
+$color-scale-2: rgba(127, 127, 127, 1);
+$color-scale-3: rgba(64, 64, 64, 1);
+
+$color-accent-primary: $color-scale-1; // on peut changer cette couleur pour changer le thème du site
+$color-text: $white;
+$color-link: $color-scale-2;
+
+//DONE
+

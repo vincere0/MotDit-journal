@@ -1,0 +1,26 @@
+table, th, td {
+  border: 1px solid black;
+  padding: 5px;
+  background: $color-accent-primary;
+
+  margin: 20px auto;
+
+}
+
+th, td {
+  color: $color-scale-3;
+  width: 200px;
+  text-align: left;
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+}

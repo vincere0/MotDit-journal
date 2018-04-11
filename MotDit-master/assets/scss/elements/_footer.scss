@@ -1,0 +1,22 @@
+footer {
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+
+  background: $white;
+  padding: 10px 30px;
+  width: 100%;
+  color: $black;
+
+  .social {
+    .fa {
+      &:hover {
+        color: $color-accent-primary;
+      }
+
+      font-size: rem(30);
+    }
+  }
+}

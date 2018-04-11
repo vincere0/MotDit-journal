@@ -1,0 +1,25 @@
+.caroussel {
+
+  display: flex;
+  flex-direction: row;
+
+  .item-caroussel {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-around;
+    margin: 5px;
+
+    img {
+      width: 100%;
+    }
+  }
+  .item-film {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+}

@@ -1,0 +1,48 @@
+// Extra large devices (large desktops, 1200px and up)
+@media screen and (min-width: 1200px){
+  // GENERIC
+  @import "generic/_reset";
+  // TOOLS
+  @import "tools/_fonctions";
+  // SETTINGS
+  @import "settings/_global";
+  @import "settings/_dimensions";
+  @import "settings/_fonts";
+  @import "settings/_colors";
+  // ELEMENTS
+  @import "elements/_caroussel";
+  @import "elements/_headings";
+  @import "elements/_images";
+  @import "elements/_links";
+  @import "elements/_body";
+  @import "elements/_wrapper";
+  @import "elements/_header";
+  @import "elements/_navigation";
+  @import "elements/_footer";
+  @import "elements/_section";
+  @import "elements/_formulaire";
+  @import "elements/_table";
+  // COMPONENTS
+
+  // UTILITIES
+  @import "utilities/print";
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+}
+
+
+
+
+
+
+

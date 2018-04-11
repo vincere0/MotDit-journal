@@ -1,0 +1,18 @@
+body {
+  @include font($font-text, $font-size-text);
+  font-weight: $fw-regular;
+  color: $color-text;
+
+  background: $color-background-primary;
+
+  p {
+    margin: 5px 0;
+    font-size: rem(14);
+  }
+
+  img {
+
+    vertical-align: middle;
+  }
+
+}

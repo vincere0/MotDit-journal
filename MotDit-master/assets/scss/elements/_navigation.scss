@@ -1,0 +1,81 @@
+.tim-nav {
+
+  width: $max-width;
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    li:last-child {
+      padding-right: rem(16);
+    }
+
+    li.sous-menu {
+      position: relative;
+
+      ul {
+        display: none;
+        position: absolute;
+
+        top: 100%;
+        left: -50px;
+
+        z-index: 10;
+
+        padding: 10px 0;
+
+        width: 150px;
+        background: $color-accent-primary;
+
+        li {
+          padding: 10px 0;
+
+          text-align: center;
+        }
+      }
+      &:hover > ul {
+        display: block;
+      }
+    }
+  }
+}
+
+.button {
+  display: block;
+  font-family: $text-menu;
+  color: #bbb;
+  font-size: 2rem;
+  margin: 0 0.5em;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.button:first-child {
+  margin-left: 0;
+}
+
+.button:last-child {
+  margin-right: 0;
+}
+
+.button:hover {
+  color: white;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+}

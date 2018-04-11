@@ -1,0 +1,14 @@
+//FICHIER DE CONFIGURATION POUR LES VARIABLES DE LARGEUR/HAUTEUR
+
+/// Dimension maximal
+$max-width: 1200px;
+$page-padding: 5px;
+
+/// Viewports sizes
+
+/// Dimension pour les media query
+$vw-thin: 320px;
+$vw-small: 640px;
+$vw-medium: 820px;
+$vw-large: 1024px;
+$vw-huge: $max-width;
